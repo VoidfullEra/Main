@@ -1,4 +1,3 @@
-game:IsLoaded(wait(3))
 local player = game.Players.LocalPlayer
 local character = player.Character
 local TweenService = game:GetService("TweenService")
