@@ -81,7 +81,7 @@ if character and character:FindFirstChild("Humanoid") then
 	local humanoid = character:FindFirstChild("Humanoid")
 
 	if humanoid.RigType == Enum.HumanoidRigType.R6 then
-		-- loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/VoidfullEra/Main/Scripts/R6.lua"))()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/VoidfullEra/Main/Scripts/R6.lua"))()
 		local TipColor = Color3.new(1, 1, 1)
 		local function updateTipColorR6()
 			while true do
@@ -101,7 +101,7 @@ if character and character:FindFirstChild("Humanoid") then
 		updateTipColorR6()
 
 	elseif humanoid.RigType == Enum.HumanoidRigType.R15 then
-		-- loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/VoidfullEra/Main/Scripts/R15.lua"))()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/VoidfullEra/Main/Scripts/R15.lua"))()
 		local TipColor = Color3.new(1, 1, 1)
 		local function updateTipColorR15()
 			while true do
